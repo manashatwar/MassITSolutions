@@ -1,0 +1,15 @@
+query frontendPluginMetadata {
+  frontendPluginMetadata {
+    code
+    path
+    hash
+  }
+}
+
+query pluginGraphqlQuery(
+  $storeId: String!
+  $input: JSON!
+  $pluginCode: String!
+) {
+  pluginGraphqlQuery(input: $input, pluginCode: $pluginCode, storeId: $storeId)
+}

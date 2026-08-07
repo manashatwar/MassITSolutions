@@ -1,0 +1,20 @@
+{
+  "name": "mass-it-solutions",
+  "//": "Main version for the app, should be in semantic version format (any release candidate or test build should be separated by '-' i.e. 1.1.1-rc1 or 1.1.1-test",
+  "version": "3.00.00-RC",
+  "private": true,
+  "packageManager": "yarn@4.13.0",
+  "workspaces": [
+    "frontend",
+    "frontend/packages/*"
+  ],
+  "scripts": {
+    "start": "cd ./frontend && yarn start-local",
+    "build": "cd ./frontend && yarn build",
+    "test": "cd ./frontend && yarn test",
+    "plugin": "node scripts/plugin-management/plugin.js"
+  },
+  "dependencies": {
+    "typescript": "^5.9.2"
+  }
+}
