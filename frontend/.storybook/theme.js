@@ -18,9 +18,9 @@ export default create({
   textColor: '#ed7d59',
   textInverseColor: 'rgba(255,255,255,0.9)',
 
-  brandTitle: 'mSupply Foundation',
-  brandUrl: 'http://msupply.foundation',
-  brandImage: 'http://msupply.foundation/images/12.png',
+  brandTitle: 'Mass IT Solutions',
+  brandUrl: 'https://www.massitsolutions.co.in/',
+  brandImage: 'https://www.massitsolutions.co.in/images/massitsolutions-logo.png',
 
   barTextColor: '#f2f2f5',
   barSelectedColor: 'black',
